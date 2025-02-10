@@ -8,7 +8,7 @@
 
 **Step 3:** Install the Application with `yarn` or `npm i`
 
-**Step 4:** Create a .env file and copy the data inside .env.example and paste it in .env file
+**Step 4:** Create a `.env` file and copy the data inside `.env.example` and paste it in `.env` file
 
 ## :arrow_forward: How to Run App
 
