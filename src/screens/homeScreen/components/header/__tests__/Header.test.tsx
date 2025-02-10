@@ -5,11 +5,13 @@ import {Image, TextInput} from 'react-native';
 
 const imagePath = '../../../src/assets/images/nasdaq.png';
 
+// Mock react-native-config
 jest.mock('react-native-config', () => ({
   API_URL: 'https://api.polygon.io/v3/reference/tickers',
   API_KEY: 'WVKkJbUc3M82eMzGr_dV77F4lRfrkBXi',
 }));
 
+// Mock react-native-async-storage
 jest.mock('@react-native-async-storage/async-storage', () => ({
   getItem: jest.fn(),
   setItem: jest.fn(),

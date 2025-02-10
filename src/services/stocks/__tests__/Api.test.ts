@@ -4,6 +4,7 @@ import {getMockedNasdaqExchangeStocks} from '../__mocks__/Stocks.mock';
 const errorMessage =
   "Failed to parse query parameters from URL: Key: 'ListTickersQueryParam.Limit' Error:Field validation for 'Limit' failed on the 'max' tag";
 
+// Mock react-native-config
 jest.mock('react-native-config', () => ({
   API_URL: 'https://api.polygon.io/v3/reference/tickers',
   API_KEY: 'WVKkJbUc3M82eMzGr_dV77F4lRfrkBXi',
