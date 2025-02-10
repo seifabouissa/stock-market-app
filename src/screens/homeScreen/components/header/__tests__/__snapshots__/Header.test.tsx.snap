@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component renders correctly Check if header component matches the snapshot 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#576682",
+      "borderBottomLeftRadius": 8,
+      "borderBottomRightRadius": 8,
+      "marginBottom": 20,
+      "paddingBottom": 15,
+      "paddingHorizontal": 20,
+    }
+  }
+>
+  <Image
+    resizeMode="contain"
+    source={
+      {
+        "testUri": "../../../src/assets/images/nasdaq.png",
+      }
+    }
+    style={
+      {
+        "height": 50,
+        "width": 100,
+      }
+    }
+  />
+  <TextInput
+    onChangeText={[Function]}
+    placeholder="Search"
+    placeholderTextColor="#000"
+    style={
+      {
+        "backgroundColor": "#fff",
+        "borderRadius": 8,
+        "padding": 10,
+      }
+    }
+  />
+</View>
+`;

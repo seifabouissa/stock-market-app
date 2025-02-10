@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home screen component renders correctly Renders correctly with initial state 1`] = `
+<View
+  style={{}}
+>
+  <Header />
+  <View
+    style={{}}
+  >
+    <View
+      style={{}}
+    >
+      <FlatList
+        ListEmptyComponent={[Function]}
+        ListFooterComponent={[Function]}
+        columnWrapperStyle={
+          {
+            "gap": 10,
+          }
+        }
+        contentContainerStyle={
+          {
+            "flexGrow": 1,
+            "gap": 10,
+            "paddingBottom": 0,
+          }
+        }
+        data={[]}
+        numColumns={2}
+        onEndReached={[Function]}
+        onEndReachedThreshold={0.1}
+        renderItem={[Function]}
+        showsVerticalScrollIndicator={false}
+      />
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stock list component renders correctly Check if stock list component matches the snapshot 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#fff",
+      "borderColor": "#0397C8",
+      "borderRadius": 10,
+      "borderWidth": 1,
+      "flex": 1,
+      "height": 100,
+      "justifyContent": "center",
+      "padding": 10,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#0397C8",
+        "fontSize": 20,
+        "fontWeight": "bold",
+        "marginBottom": 5,
+        "textAlign": "center",
+      }
+    }
+  >
+    AACG
+  </Text>
+  <Text
+    numberOfLines={1}
+    style={
+      {
+        "color": "#000",
+        "fontWeight": "bold",
+        "textAlign": "center",
+      }
+    }
+  >
+    ATA Creativity Global American Depositary Shares
+  </Text>
+</View>
+`;
